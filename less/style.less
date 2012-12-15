@@ -1,0 +1,51 @@
+@import "variables"; // Modify this for custom colors, font-sizes, etc
+@import "mixins";
+
+body {
+	font-size: 14px;
+	color: #444;
+}
+
+.page-header {
+	h1 {
+		margin-bottom: 0;
+		
+		a:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.code-style {
+	margin-left: 0;
+	font-family: monospace, sans-serif;
+	width: 400px;
+	display: inline-block;
+}
+
+.credits {
+	.clearfix();
+	margin-top: 2em;
+
+	li {
+		float: left;
+		width: 225px;
+		margin-right: 10px;
+	}
+}
+
+footer {
+	margin-top: 20px;
+	.container {
+		padding: 10px 0;
+		border-top: 1px solid #eee;	
+	}
+}
+
+.label-android {
+	background: darken(#a4c639, 1%);
+}
+
+.label-placekitten {
+	background: #76D32B;
+}
