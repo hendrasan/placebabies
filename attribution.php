@@ -54,7 +54,7 @@
 
 			<p>Most of the images will have a link to their owner's page so you can contact the owner if you want to use them for more than just layouting purpose.</p>
 
-			<p>In the case where I couldn't find the source of credit for the image, it will be listed as empty or as "public domain". If it isn't, and/or you are the image owner and would rather like to see it removed - please <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x68;&#x65;&#x6e;&#100;&#x72;&#97;&#x73;&#117;&#115;&#97;&#110;&#x74;&#x6f;&#64;&#104;&#111;&#116;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">email me</a> and I will certainly remove the offending material.</p>
+			<p>In the case where I couldn't find the source of credit for the image, it will be listed as empty or as "public domain". If it isn't, and/or you are the image owner and would rather like to see it removed - please <a href="&#x6d;&#97;&#105;&#108;&#x74;&#x6f;&#x3a;&#98;&#x65;&#x6e;&#x68;&#97;&#110;&#107;&#115;&#x30;&#x34;&#48;&#56;&#56;&#56;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">email me</a> and I will certainly remove the offending material.</p>
 
 			<ul class="unstyled credits">
 				<?php foreach ($credits as $value): ?>

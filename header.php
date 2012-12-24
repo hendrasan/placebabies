@@ -10,7 +10,8 @@
         <meta name="description" content="Placeholder image generator, this one specificially of baby images">
         <meta name="viewport" content="width=device-width">
 
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>

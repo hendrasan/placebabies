@@ -29,8 +29,12 @@ body {
   font-size: 14px;
   color: #444;
 }
+.page-header {
+  font-family: "PT Sans", sans-serif;
+}
 .page-header h1 {
   margin-bottom: 0;
+  font-weight: normal;
 }
 .page-header h1 a:hover {
   text-decoration: none;
