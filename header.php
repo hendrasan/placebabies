@@ -4,11 +4,13 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Placebabies - Placeholder with Babies</title>
-        <meta name="description" content="Placeholder image generator, this one specificially of baby images">
-        <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Placeholder image generator, this one specificially of baby images">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="shortcut icon" href="favicon.ico" >
 
 		<link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css">
