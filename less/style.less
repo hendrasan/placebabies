@@ -21,6 +21,9 @@ p {
 	margin: 40px 0 20px;
 	border: none;
  	-webkit-animation: appear-from-top 1s;
+ 	-moz-animation: appear-from-top 1s;
+ 	-o-animation: appear-from-top 1s;
+ 	animation: appear-from-top 1s;
 
 	h1 {
 		margin-bottom: 0;
@@ -111,6 +114,40 @@ footer {
 		opacity: 1;
 	}
 }
+
+@-moz-keyframes appear-from-top {
+	0% {
+		.translate(0, -20px);
+		opacity: 0;
+	}
+	100% {
+		.translate(0, 0);
+		opacity: 1;
+	}
+}
+
+@-o-keyframes appear-from-top {
+	0% {
+		.translate(0, -20px);
+		opacity: 0;
+	}
+	100% {
+		.translate(0, 0);
+		opacity: 1;
+	}
+}
+
+@keyframes appear-from-top {
+	0% {
+		.translate(0, -20px);
+		opacity: 0;
+	}
+	100% {
+		.translate(0, 0);
+		opacity: 1;
+	}
+}
+
 
 // MEDIA QUERIES
 @media (max-width: 980px) {
