@@ -10,6 +10,11 @@
     <meta name="description" content="Placeholder image generator, this one specificially of baby images">
     <meta name="viewport" content="width=device-width">
 
+    <meta property="og:url" content="http://placebabies.com" /> 
+    <meta property="og:title" content="Placebabies - Placeholder with Babies" /> 
+    <meta property="og:description" content="Placeholder image generator, this one specificially of baby images" /> 
+    <meta property="og:image" content="<?= $root . '200' ?>" />
+
     <link rel="shortcut icon" href="favicon.ico" >
 
 		<link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>

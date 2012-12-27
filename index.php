@@ -1,4 +1,5 @@
 <?php
+	$sitename = 'placebabies.com';
 	$root = "http://".$_SERVER['HTTP_HOST'];
 	$root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 
@@ -28,17 +29,17 @@
 
 					<ul class="social-buttons unstyled well">
 						<li>
-							<a class="socialite twitter-share" href="http://twitter.com/share" data-text="Placebabies - Placeholder with Babies" data-url="<?= $root ?>" rel="nofollow" target="_blank">
+							<a class="socialite twitter-share" href="http://twitter.com/share" data-text="Placebabies - Placeholder with Babies" data-url="<?= $sitename ?>" rel="nofollow" target="_blank">
 						    Share on Twitter
 						  </a>
 						</li>
 						<li>
-							<a class="socialite facebook-like" data-href="<?= $root ?>" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-default-href="http://www.facebook.com/sharer.php?u=<?= $root ?>&amp;t=Placebabies - Placeholder with Babies" rel="nofollow" target="_blank">
+							<a class="socialite facebook-like" data-href="<?= $sitename ?>" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-default-href="http://www.facebook.com/sharer.php?u=<?= $sitename ?>&amp;t=Placebabies - Placeholder with Babies" rel="nofollow" target="_blank">
 						    Like on Facebook
 						  </a>
 						</li>
 						<li>
-							<a href="https://plus.google.com/share?url=<?= $root ?>" class="socialite googleplus-one" data-href="<?= $root ?>" rel="nofollow" target="_blank">
+							<a href="https://plus.google.com/share?url=<?= $sitename ?>" class="socialite googleplus-one" data-href="<?= $sitename ?>" rel="nofollow" target="_blank">
 								Share on Google+
 							</a>
 						</li>
