@@ -1,6 +1,11 @@
 <?php
 // require image_moo lib cos I'm lazy
 require_once ('third_party/image_moo.php');
+// php ga
+require_once ('third_party/autoload.php');
+
+use UnitedPrototype\GoogleAnalytics;
+
 
 // some default config variables
 $default_width = 200;
@@ -33,6 +38,30 @@ if( $g ) {
 	$image_moo->filter(IMG_FILTER_GRAYSCALE);
 }
 
+// Track by PHP GA
+  // // Initilize GA Tracker
+  // $tracker = new GoogleAnalytics\Tracker('UA-37074526-1', 'placebabies.com');
+
+  // // Assemble Visitor information
+  // // (could also get unserialized from database)
+  // $visitor = new GoogleAnalytics\Visitor();
+  // $visitor->setIpAddress($_SERVER['REMOTE_ADDR']);
+  // $visitor->setUserAgent($_SERVER['HTTP_USER_AGENT']);
+  // // $visitor->setScreenResolution($w.'x'.$h);
+
+  // // Assemble Session information
+  // // (could also get unserialized from PHP session)
+  // $session = new GoogleAnalytics\Session();
+
+  // // Assemble Page information
+  // $page = new GoogleAnalytics\Page('/generate/'.$w.'/'.$h);
+  // $page->setTitle($w.'x'.$h);
+
+  // // Track page view
+  // $tracker->trackPageview($page, $session, $visitor);
+  // // END GA TRACKER
+
+
 // Track for analytics (?)
 file_put_contents('stat.log', file_get_contents('stat.log')+1 );
 
@@ -41,8 +70,14 @@ if( !file_exists('stat/'.date('Y-m-d').'.log' )){
 	fwrite($f, '');
 	fclose($f);
 }
+if( !file_exists('stat/'.date('Y-m-d').'_data.log' )){
+  $f = fopen( 'stat/'.date('Y-m-d').'_data.log' , 'w' );
+  fwrite($f, '');
+  fclose($f);
+}
 
 file_put_contents('stat/'.date('Y-m-d'). '.log', file_get_contents('stat/'.date('Y-m-d'). '.log')+1 );
+file_put_contents('stat/'.date('Y-m-d'). '_data.log', file_get_contents('stat/'.date('Y-m-d'). '_data.log') . $_SERVER['HTTP_REFERER'] .' - '. $w.'x'.$h . (!empty($img) ? ' (image '.$img.') ' : '') ."\r\n" );
 
 // display the image
 $image_moo->save_dynamic();
