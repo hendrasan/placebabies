@@ -7,12 +7,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Placebabies - Placeholder with Babies</title>
-    <meta name="description" content="Placeholder image generator, this one specificially of baby images">
+    <meta name="description" content="Placeholder image generator, this one specifically of baby images">
     <meta name="viewport" content="width=device-width">
 
     <meta property="og:url" content="http://placebabies.com" /> 
     <meta property="og:title" content="Placebabies - Placeholder with Babies" /> 
-    <meta property="og:description" content="Placeholder image generator, this one specificially of baby images" /> 
+    <meta property="og:description" content="Placeholder image generator, this one specifically of baby images" /> 
     <meta property="og:image" content="<?= $root . '200' ?>" />
 
     <link rel="shortcut icon" href="favicon.ico" >
