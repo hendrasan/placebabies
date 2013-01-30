@@ -15,6 +15,11 @@
     <meta property="og:description" content="Placeholder image generator, this one specifically of baby images" /> 
     <meta property="og:image" content="<?= $root . '200' ?>" />
 
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-iphone.png" /> 
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-ipad.png" /> 
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-iphone4.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-ipad3.png" />
+
     <link rel="shortcut icon" href="favicon.ico" >
 
 		<link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>

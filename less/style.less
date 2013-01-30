@@ -1,5 +1,6 @@
 @import "variables"; // Modify this for custom colors, font-sizes, etc
 @import "mixins";
+@import "retina";
 
 // BASE
 [class*="span"] {
@@ -30,7 +31,9 @@ p {
 		font-weight: normal;
 
 		a {
-		  background: url('../images/baby.png') left center no-repeat;
+			background-repeat: no-repeat;
+			.at2x('../images/baby.png');
+		  // background: url('../images/baby.png') left center no-repeat;
 		  padding-left: 50px;
 			color: #323334;
 		}
