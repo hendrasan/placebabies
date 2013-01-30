@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Placebabies - Placeholder with Babies</title>
     <meta name="description" content="Placeholder image generator, this one specifically of baby images">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
 
     <meta property="og:url" content="http://placebabies.com" /> 
     <meta property="og:title" content="Placebabies - Placeholder with Babies" /> 
@@ -24,7 +24,7 @@
 
 		<link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css?v=3">
 	</head>
 	<body>
 		<header class="container">
